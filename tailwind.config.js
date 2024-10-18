@@ -12,7 +12,9 @@ module.exports = {
         lightBlue: '#007BFF',
         buttonHover: '#0056b3',
         DarkBlue80: '#002A48',
-        PrimaryDarBlue : '#003459'
+        PrimaryDarBlue : '#003459',
+        NeutralColor : '#667479',
+        MonYellow : '#FCEED5'
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
