@@ -20,11 +20,6 @@ export const Navbar = () => {
 
       {/* Search Bar and Buttons */}
       <div className="flex items-center space-x-4">
-        <input 
-          type="text" 
-          placeholder="Search something here!" 
-          className="border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-lightBlue"
-        />
         <button className="bg-lightBlue text-white px-4 py-2 rounded-full hover:bg-buttonHover">
           Join the community
         </button>

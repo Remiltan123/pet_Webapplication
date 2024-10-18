@@ -14,7 +14,6 @@ export const HomePage = () => {
       <HeroFooter />
       <Product/>
       <PetKnowlage/>
-      <Footer/>
     </div>
   )
 }

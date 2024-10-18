@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import { HomePage } from './Pages/HomePage';
+import { Footer } from './Component/Fotter';
 
 
 function App() {
   return (
     <div className="App">
        <HomePage/>
+       <Footer/>
     </div>
   );
 }
