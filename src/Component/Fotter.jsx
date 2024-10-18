@@ -10,7 +10,7 @@ export const Footer = () => {
             <footer className="bg-MonYellow pt-5 mx-12">
                 <div className="container max-w-7xl mx-auto px-4 mb-12 w-90">
 
-                    {/* Call to Action Section */}
+                 
                     <div className="bg-Footerblue rounded-xl p-6 mx-auto flex flex-col md:flex-row justify-between items-center">
                         <h2 className="text-white text-lg md:text-xl font-semibold mb-4 md:mb-0">
                             Register Now So You Don't Miss Our Programs
@@ -40,18 +40,15 @@ export const Footer = () => {
 
                         {/* Social Icons */}
                         <div className="flex space-x-4 text-gray-600">
-                            <a href="https://www.facebook.com" aria-label="Facebook">
+                        
                                 <FaFacebook className="w-5 h-5 hover:text-blue-600" />
-                            </a>
-                            <a href="https://www.twitter.com" aria-label="Twitter">
+            
                                 <FaTwitter className="w-5 h-5 hover:text-blue-400" />
-                            </a>
-                            <a href="https://www.instagram.com" aria-label="Instagram">
+                
                                 <IoLogoInstagram className="w-5 h-5 hover:text-pink-500" />
-                            </a>
-                            <a href="https://www.youtube.com" aria-label="YouTube">
+                          
                                 <FaYoutube className="w-5 h-5 hover:text-red-500" />
-                            </a>
+                        
                         </div>
                     </div>
 
