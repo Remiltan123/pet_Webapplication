@@ -14,7 +14,9 @@ module.exports = {
         DarkBlue80: '#002A48',
         PrimaryDarBlue : '#003459',
         NeutralColor : '#667479',
-        MonYellow : '#FCEED5'
+        MonYellow : '#FCEED5',
+        Footerblue:'#062C58'
+       
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],

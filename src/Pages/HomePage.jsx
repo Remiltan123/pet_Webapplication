@@ -4,6 +4,7 @@ import { PatCard } from '../Component/PatCard'
 import { HeroFooter } from '../Component/HeroFooter'
 import { Product } from '../Component/Product'
 import { PetKnowlage } from '../Component/PetKnowlage'
+import { Footer } from '../Component/Fotter'
 
 export const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ export const HomePage = () => {
       <HeroFooter />
       <Product/>
       <PetKnowlage/>
+      <Footer/>
     </div>
   )
 }
