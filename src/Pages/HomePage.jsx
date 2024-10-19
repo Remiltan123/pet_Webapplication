@@ -6,12 +6,14 @@ import { Product } from '../Component/Product'
 import { PetKnowlage } from '../Component/PetKnowlage'
 import { Footer } from '../Component/Fotter'
 
+import Herofoter from '../Assets/Footer1.png'
+
 export const HomePage = () => {
   return (
     <div>
       <Header/>
       <PatCard/>
-      <HeroFooter />
+      <HeroFooter image ={Herofoter}/>
       <Product/>
       <PetKnowlage/>
     </div>

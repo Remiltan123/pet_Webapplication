@@ -1,17 +1,14 @@
 import React, { useState } from 'react';
 import { Navbar } from '../Component/HeaderSection/Navbar';
 import { HeroFooter } from '../Component/HeroFooter';
+import Gatogary from '../Assets/Catogary.png'
 
 export const Category = () => {
-  const [category, SetCategory] = useState(""); // Shared category state
-
-  // Log the selected category (optional, just for testing)
-  console.log("Selected Category in Category Page:", category);
-
+ 
   return (
     <div>
       <Navbar/>
-      <HeroFooter/>
+      <HeroFooter image ={Gatogary}/>
       
     </div>
   );
