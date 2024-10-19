@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Navbar } from '../Component/HeaderSection/Navbar';
+import { HeroFooter } from '../Component/HeroFooter';
 
 export const Category = () => {
   const [category, SetCategory] = useState(""); // Shared category state
@@ -10,6 +11,7 @@ export const Category = () => {
   return (
     <div>
       <Navbar/>
+      <HeroFooter/>
       
     </div>
   );

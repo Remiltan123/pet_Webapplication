@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Frame from '../../Assets/Frame.png';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const CategorySelection = ({ onSelectCategory }) => {
   return (
@@ -19,6 +20,8 @@ const CategorySelection = ({ onSelectCategory }) => {
 };
 
 export const Navbar = () => {
+
+  const navigate = useNavigate()
   const [showCategorySelection, setShowCategorySelection] = useState(false);
 
   const handleCategoryClick = () => {
@@ -36,7 +39,7 @@ export const Navbar = () => {
       </div>
 
       <ul className="flex space-x-6 text-darkBlue font-medium relative">
-        <li><a href="#" className="hover:text-lightBlue cursor-pointer">Home</a></li>
+        <Link to="/"><li><a href="#" className="hover:text-lightBlue cursor-pointer">Home</a></li></Link>
 
         <li className="relative">
           <button
